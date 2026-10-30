@@ -1,0 +1,9 @@
+name = "SigmaOS-desktop-session"
+schema_version = 1
+responsibility = "graphical session lifecycle, compositor selection, environment, and readiness"
+canonical_owner = "SigmaOS-shell"
+integration_repository = "https://github.com/AaryanSinghChauhan09/SigmaOS"
+capability = "wayland_zenith_compositor"
+canonical_branch = "main"
+status = "scaffold"
+license = "GPL-3.0-or-later"
