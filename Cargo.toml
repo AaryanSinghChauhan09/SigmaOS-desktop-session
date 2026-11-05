@@ -1,9 +1,9 @@
 [package]
-name = "desktop_session"
+name = "sigmaos_desktop_session"
 version = "0.1.0"
 edition = "2021"
-description = "SigmaOS SigmaOS-desktop-session component"
-license = "MIT"
-repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-desktop-session"
+description = "Wayland compositor coordinator, display greeter, XDG portal integration, and session supervisor"
 
-[dependencies]
+[lib]
+name = "sigmaos_desktop_session"
+path = "src/lib.rs"
