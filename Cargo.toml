@@ -2,7 +2,8 @@
 name = "sigmaos_desktop_session"
 version = "0.1.0"
 edition = "2021"
-description = "Wayland compositor coordinator, display greeter, XDG portal integration, and session supervisor"
+license = "MIT"
+description = "SigmaOS desktop-session component inspired by Linux Mint / Omarchy / Arch Linux."
 
 [lib]
 name = "sigmaos_desktop_session"
