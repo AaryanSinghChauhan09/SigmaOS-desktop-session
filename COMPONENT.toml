@@ -3,12 +3,12 @@ name = "SigmaOS-desktop-session"
 tier = 3
 stability = "scaffold"
 language = "rust"
-description = "Wayland compositor coordinator, display greeter, XDG portal integration, and session supervisor"
+description = "Graphical session lifecycle, compositor selection, environment, and readiness"
 upstream = ["https://github.com/linuxmint/cinnamon-session"]
 
 [contract]
 provides = ["desktop-session-manager", "greeter-daemon", "xdg-portal-integration"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
