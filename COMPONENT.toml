@@ -1,7 +1,7 @@
 [component]
 name = "SigmaOS-desktop-session"
 tier = 3
-stability = "scaffold"
+stability = "beta"
 language = "rust"
 description = "Graphical session lifecycle, compositor selection, environment, and readiness"
 upstream = ["https://github.com/linuxmint/cinnamon-session"]
@@ -11,6 +11,6 @@ provides = ["desktop-session-manager", "greeter-daemon", "xdg-portal-integration
 depends_on = ["SigmaOS-system"]
 
 [maturity]
-status = "Scaffold"
+status = "Implemented"
 test_evidence = "Compiles and passes AAA unit tests"
 next_milestone = "Hardware and runtime integration"
